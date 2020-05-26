@@ -9,9 +9,13 @@ ragtag_html(number_sections = FALSE, ...)
 \arguments{
 \item{number_sections}{Should sections be numbered?}
 
-\item{...}{These are additional arguments sent to \@code{html_document}}
+\item{...}{additional arguments sent to \@code{html_document}}
 }
 \description{
+It essentially uses the base rmarkdown html_document function
+but adds in additional CSS and and a footer template file.
 It essentially uses the base rmarkdown html_document function,
-but adds in additional CSS and and a footer template file. I haven't added much to this footer template so it's more of a skeleton for later
+but adds in additional CSS and and a footer template file.
+I haven't added much to this footer template so it's more of a
+skeleton for later.
 }

@@ -1,0 +1,23 @@
+---
+title: "Skeleton (Capitalized)"
+subtitle: "Skeleton (Title case)"
+author: "Name/Team"
+date: "`r Sys.Date()`"
+output: 
+  ragtag::ragtag_html:
+    number_sections: FALSE
+---
+
+```{r setup, include=FALSE}
+library(ragtag)
+library(tidyverse)
+library(janitor)
+library(tidymodels)
+
+knitr::opts_chunk$set(echo=TRUE, 
+                      message=FALSE,
+                      cache=FALSE)
+```
+
+# Introduction.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis purus a elit ultrices laoreet. Donec gravida, ante a laoreet blandit, enim ipsum ullamcorper sem, id sodales neque lacus accumsan ipsum. Nam condimentum orci ac euismod sollicitudin. Curabitur a lacus vitae dui semper ornare. Phasellus tempor purus nisi, in luctus nisl malesuada in. Duis sed purus consequat, porta ante at, tristique arcu. Aenean enim metus, vehicula et pulvinar ut, efficitur sed sapien. Aenean sodales purus nulla, ut facilisis elit elementum vel. Mauris maximus semper pretium. Quisque pulvinar pharetra elementum.

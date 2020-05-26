@@ -1,0 +1,109 @@
+/* 
+
+###   FONTS   ###
+
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700');
+
+html {
+  background-color: #F8F8F8;
+}
+
+/* There are instances where the default Lato font shows up when I exclude the important flag for font-family*/
+* {
+  font-family: "Roboto Condensed", sans-serif !important;
+}
+
+pre, code {
+  font-family: "Courier Prime", monospace !important;
+}
+
+.title {
+  font-weight: bold;
+}
+
+/* 
+###   Accent color at the top of body   ###
+*/
+
+body {
+  margin-top: 30px;
+}
+
+/* 
+
+######          Styling TOC             ######
+###### To be used with these YAML flags ######
+###### toc: true                        ######
+###### toc_float: true                  ######
+###### toc_collapsed: false             ######
+
+*/
+
+
+#TOC {
+  padding:25px;
+  border: none;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+}
+
+#TOC::before {
+  content: "Contents";
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.tocify-header.list-group {
+  margin: 10px;
+  border-radius: 0px;
+}
+
+/* Colors are pulled from ux.mailchimp.com */
+.list-group-item.active, 
+.list-group-item.active:hover, 
+.list-group-item.active:focus {
+  color: #007C89;            /* Kale */
+  background-color: #CCE5E7; /* Kale with opacity 0.2 */
+}
+
+.tocify-item {
+  padding: 15px;
+}
+
+.list-group {
+  transition: all 200ms ease;
+}
+
+.list-group-item {
+  padding: 20px;
+}
+
+.tocify-item:hover {
+  background-color: #e6f2f3;
+}
+
+li {
+  list-style-position: outside;
+  text-indent: 0;
+}
+
+/*
+### Styling Tabset ###
+*/
+
+a, 
+a:hover, 
+a:active, 
+a:visited {
+ color: #007C89; 
+}
+
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:hover, 
+.nav-tabs>li.active>a:focus {
+  color: #007C89;
+  background-color: #CCE5E7;
+}

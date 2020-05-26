@@ -1,10 +1,14 @@
 #' Personal Rmd Temlate. It only converts to HTML right now.
 #'
+#' It essentially uses the base rmarkdown html_document function
+#' but adds in additional CSS and and a footer template file.
 #' It essentially uses the base rmarkdown html_document function,
-#' but adds in additional CSS and and a footer template file
-#'
+#' but adds in additional CSS and and a footer template file.
+#' I haven't added much to this footer template so it's more of a
+#' skeleton for later.
+#' @import rmarkdown
 #' @param number_sections Should sections be numbered?
-#' @param ... additional arguments provided to \@code{html_document}
+#' @param ... additional arguments sent to \@code{html_document}
 #' @export
 #'
 ragtag_html = function(number_sections = FALSE, ...) {
