@@ -1,5 +1,5 @@
 # ragtag
-My personal R project that keeps things like an R markdown template.
+My personal R project to organize things like an R markdown template.
 
 For an explanation of how to create your own Rmarkdown html template in R, I'd recommend taking a look at Chapter 18 in Yihui Xie's book [Rmarkdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/new-formats.html)
 
