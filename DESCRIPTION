@@ -1,0 +1,14 @@
+Package: ragtag
+Title: A collection of miscilaneous functions 
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Anirudh",
+           family = "Mylavarapu",
+           role = c("aut", "cre"),
+           email = "first.last@example.com")
+Description: This is my personal R package. It has a set of miscelanious functions, settings, and other features that sets up R for me.
+License: `use_mit_license()
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
