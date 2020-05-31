@@ -28,7 +28,7 @@ ragtag_html = function(number_sections = FALSE, ...) {
     toc_depth = 2,
     toc_collapsed = FALSE,
     df_print = "paged",
-    theme = "flatly",
+    theme = "lumen",
     code_folding = "hide",
     css = css,
     number_sections = number_sections,
