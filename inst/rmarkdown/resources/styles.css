@@ -4,20 +4,23 @@
 
 */
 
-
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700');
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700");
 
 html {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
-/* There are instances where the default Lato font shows up when I exclude the important flag for font-family*/
+/* 
+   There are instances where the default font shows up when I exclude the important flag for font-family
+   And I don't mind being overly specific here with these selectors.
+*/
 * {
   font-family: "Roboto Condensed", sans-serif !important;
-  color: #3a3a3a;
+  color: #2a2a2a;
 }
 
-pre, code {
+pre,
+code {
   font-family: "Courier Prime", monospace !important;
 }
 
@@ -35,17 +38,18 @@ body {
 
 /*
 
-######          Styling TOC             ######
-###### To be used with these YAML flags ######
-###### toc: true                        ######
-###### toc_float: true                  ######
-###### toc_collapsed: false             ######
+######          Styling TOC                ######
+######    To be used with these YAML       ######
+######    key value pairs                  ######
+_________________________________________________
+######    toc: true                        ######
+######    toc_float: true                  ######
+######    toc_collapsed: false             ######
 
 */
 
-
 #TOC {
-  padding:25px;
+  padding: 25px;
   border: none;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
 }
@@ -55,7 +59,7 @@ body {
   font-size: 20px;
   font-weight: bold;
   margin-left: 10px;
-  color: #3a3a3a;
+  color: #2a2a2a;
 }
 
 .tocify-header.list-group {
@@ -67,8 +71,8 @@ body {
 .list-group-item.active,
 .list-group-item.active:hover,
 .list-group-item.active:focus {
-  color: #007C89;            /* Kale */
-  background-color: #CCE5E7; /* Kale with opacity 0.2 */
+  color: #007c89; /* Kale */
+  background-color: #cce5e7; /* Kale with opacity 0.2 */
 }
 
 .tocify-item {
@@ -100,12 +104,12 @@ a,
 a:hover,
 a:active,
 a:visited {
- color: #007C89;
+  color: #007c89;
 }
 
-.nav-tabs>li.active>a,
-.nav-tabs>li.active>a:hover,
-.nav-tabs>li.active>a:focus {
-  color: #007C89;
-  background-color: #CCE5E7;
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #007c89;
+  background-color: #cce5e7;
 }
