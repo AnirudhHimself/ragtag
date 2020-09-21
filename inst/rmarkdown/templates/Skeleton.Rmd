@@ -11,8 +11,8 @@ output:
 ```{r setup, include=FALSE}
 library(ragtag)
 library(tidyverse)
-library(janitor)
 library(tidymodels)
+library(janitor)
 
 knitr::opts_chunk$set(echo=TRUE, 
                       message=FALSE,
