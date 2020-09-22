@@ -19,7 +19,6 @@ ragtag_html = function(number_sections = FALSE, ...) {
   }
 
   css    = pkg_resource("rmarkdown/resources/styles.css")
-  footer = pkg_resource("rmarkdown/resources/footer.html")
 
   # call the base html_document function
   rmarkdown::html_document(
