@@ -18,7 +18,7 @@ ragtag_html = function(number_sections = FALSE, ...) {
     system.file(..., package = "ragtag")
   }
 
-  css    = pkg_resource("rmarkdown/resources/styles.css")
+  css = pkg_resource("rmarkdown/templates/ragtagHtml/resources/styles.css")
 
   # call the base html_document function
   rmarkdown::html_document(
@@ -31,7 +31,6 @@ ragtag_html = function(number_sections = FALSE, ...) {
     code_folding = "hide",
     css = css,
     number_sections = number_sections,
-    includes = rmarkdown::includes(after_body = footer),
     ...
   )
 }
