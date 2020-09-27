@@ -14,7 +14,7 @@ Since this package isn't on CRAN, install this package with devtools. Type:
 devtools::install_github("AnirudhHimself/ragtag")
 ```
 
-To use the theme change the YAML for the Rmarkdown document to include the theme in the output. It also shows up as a template in Rstudio.
+To use the theme change the YAML for the Rmarkdown document to include the theme in the output. It also shows up as a template in RStudio.
 
 ```YAML
 ---
