@@ -8,7 +8,7 @@ In the future, I'd like to store some helper functions that I find myself routin
 
 ## Installation
 
-To install this package you make sure that devtools is installed. Then type in:
+Since this package isn't on CRAN, install this package with devtools. Type:
 
 ```r
 devtools::install_github("AnirudhHimself/ragtag")
